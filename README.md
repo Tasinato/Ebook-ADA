@@ -96,3 +96,14 @@ Pré-requisitos:
 Exemplo:
 ```bash
 pandoc -o dist/ebook.pdf src/ebook.md
+
+
+Créditos
+
+Texto: [Rafael Tasinato]
+
+Revisão: [Chatgpt]
+
+Capa/ilustração: [Rafael Tasinato/DALL-E]
+
+Projeto: Ebook Ada Lovelace
