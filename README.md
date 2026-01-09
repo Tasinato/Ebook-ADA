@@ -96,7 +96,7 @@ Pré-requisitos:
 Exemplo:
 ```bash
 pandoc -o dist/ebook.pdf src/ebook.md
-
+```
 
 
 
@@ -108,10 +108,11 @@ Pré-requisitos:
 TeX Live/MiKTeX
 
 Exemplo:
-
+```
 latexmk -pdf -output-directory=dist src/main.tex
-
+```
 Opção C — Word/Google Docs
+```
 
 Conteúdo em .docx ou exportação manual para PDF
 
