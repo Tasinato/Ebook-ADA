@@ -48,27 +48,41 @@ Produzir um texto **sintético, coeso e historicamente fundamentado** que:
 
 ---
 
-## Estrutura do ebook
-1. **O mundo antes dos computadores**  
-   Revolução Industrial, mecanização do cálculo, limites das máquinas existentes e necessidade de métodos de computação mais eficientes.
+## Conteúdo do ebook (arquivos-fonte)
 
-2. **Formação intelectual de Ada Lovelace**  
-   Educação científica no século XIX, matemática aplicada, lógica e a construção de competências técnicas (sem mitificação biográfica).
+O texto do ebook está organizado na pasta [`src/`](src/) e pode ser lido diretamente nos arquivos Markdown abaixo, na ordem recomendada:
 
-3. **O encontro com Charles Babbage**  
-   Máquina Diferencial, Máquina Analítica e o diálogo intelectual que sustenta a contribuição de Ada.
+1. **Introdução**  
+   [`00-introdução.md`](src/00-introdução.md)
 
-4. **A Máquina Analítica**  
-   Arquitetura, cartões perfurados, memória, unidade de processamento e a ideia de uma máquina de uso geral.
+2. **Capítulo 1 — O mundo antes dos computadores**  
+   [`01-capitulo.md`](src/01-capitulo.md)
 
-5. **As Notas de Ada Lovelace (A–G)**  
-   Tradução do texto de Menabrea e elaboração das Notas, incluindo procedimentos formais (como os números de Bernoulli) e a noção de “programa”.
+3. **Capítulo 2 — Formação intelectual de Ada Lovelace**  
+   [`02-capitulo.md`](src/02-capitulo.md)
 
-6. **Limites e legado**  
-   A afirmação dos limites da máquina (não “cria” por si) e o legado conceitual duradouro: dados, instruções e processos executáveis.
+4. **Capítulo 3 — O encontro com Charles Babbage**  
+   [`03-capitulo.md`](src/03-capitulo.md)
 
-7. **Conclusão**  
-   Síntese do argumento central e relevância para a compreensão histórica da computação.
+5. **Capítulo 4 — A Máquina Analítica**  
+   [`04-capitulo.md`](src/04-capitulo.md)
+
+6. **Capítulo 5 — As Notas de Ada Lovelace (A–G)**  
+   [`05-capitulo.md`](src/05-capitulo.md)
+
+7. **Conclusão — Limites e legado**  
+   [`06-conclusão.md`](src/06-conclusão.md)
+
+8. **Referências bibliográficas**  
+   [`07-referencias.md`](src/07-referencias.md)
+
+---
+
+### Observação
+
+- Os arquivos estão numerados para preservar a ordem editorial do ebook.
+- A leitura pode ser feita diretamente no GitHub ou utilizada como base para compilação em PDF/EPUB.
+- Contribuições devem ser realizadas preferencialmente **nos arquivos da pasta `src/`**.
 
 ---
 
