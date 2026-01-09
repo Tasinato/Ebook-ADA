@@ -97,10 +97,6 @@ Exemplo:
 ```bash
 pandoc -o dist/ebook.pdf src/ebook.md
 ```
-
-
-
-
 Opção B — LaTeX → PDF
 
 Pré-requisitos:
@@ -111,17 +107,19 @@ Exemplo:
 ```
 latexmk -pdf -output-directory=dist src/main.tex
 ```
-Opção C — Word/Google Docs
-```
 
-Conteúdo em .docx ou exportação manual para PDF
+# Ebook — Ada Lovelace  
+**A Primeira Programadora da História**
 
-[EDITAR] Documente aqui o procedimento exato (modelos, estilos, etc.).
+Este repositório contém os arquivos-fonte do ebook *Ada Lovelace — A Primeira Programadora da História*, desenvolvido com rigor histórico, clareza conceitual e compromisso acadêmico, evitando romantizações ou anacronismos.
 
-Organização do repositório
+---
 
-Sugestão de estrutura (ajuste conforme seu projeto):
+## Organização do repositório
 
+Sugestão de estrutura (ajuste conforme necessário):
+
+```text
 .
 ├─ src/
 │  ├─ capitulo-01.md
@@ -139,50 +137,84 @@ Sugestão de estrutura (ajuste conforme seu projeto):
 │  ├─ ebook.pdf
 │  └─ ebook.epub
 └─ README.md
+```
+## Descrição das pastas
 
-Como contribuir
+### src/
+Arquivos principais do ebook em **Markdown**, organizados por capítulos e seções do texto.
 
-Contribuições são bem-vindas, especialmente:
+### assets/
+Recursos visuais e tipográficos utilizados no projeto:
 
-revisão técnica e histórica;
+- **capa/**: arquivos da capa do ebook  
+- **imagens/**: figuras, ilustrações e diagramas incorporados ao texto  
+- **fontes/**: fontes tipográficas utilizadas na composição editorial
 
-melhorias de clareza e coesão;
+### dist/
+Versões finais compiladas do ebook:
 
-padronização de referências;
+- **PDF**
+- **EPUB**
 
-ajustes editoriais (ABNT, Chicago, etc.), conforme a diretriz do projeto.
+---
 
-Fluxo sugerido:
+## Como contribuir
 
-Abra uma Issue descrevendo o problema/ajuste.
+Contribuições são bem-vindas, especialmente nas seguintes áreas:
 
-Faça um fork do repositório.
+- Revisão técnica e histórica;
+- Melhoria de clareza, coesão e precisão conceitual;
+- Padronização e verificação de referências bibliográficas;
+- Ajustes editoriais (ABNT, Chicago ou outros padrões definidos pelo projeto).
 
-Crie um branch: feat/ajuste-x ou fix/revisao-y.
+### Fluxo sugerido de contribuição
 
-Envie um Pull Request com descrição objetiva e, se possível, referências.
+1. Abra uma **Issue** descrevendo claramente o problema, sugestão ou ajuste proposto.
+2. Faça um **fork** do repositório.
+3. Crie um branch com nomenclatura adequada, por exemplo:
+   - `feat/ajuste-capitulo-3`
+   - `fix/revisao-referencias`
+4. Envie um **Pull Request** contendo:
+   - descrição objetiva das alterações realizadas;
+   - justificativa técnica ou editorial;
+   - referências, quando aplicável.
 
-Licença
+---
 
-[EDITAR] Defina a licença do conteúdo.
+## Licença
 
-Sugestões comuns:
+Este ebook está licenciado sob a **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-CC BY 4.0 (permite uso com atribuição)
+Isso significa que o conteúdo pode ser:
 
-CC BY-NC 4.0 (uso não comercial com atribuição)
+- Compartilhado — copiado e redistribuído em qualquer meio ou formato;
+- Adaptado — remixado, transformado e utilizado como base para novos trabalhos;
+- Utilizado para fins acadêmicos, educacionais ou comerciais;
 
-Créditos
+Desde que seja fornecida a **Citação**, indicando:
 
-Texto: [Rafael Tasinato]
+### Citação
 
-Revisão: [Rafael Tasinato - chatgpt]
+Ao reutilizar, adaptar ou redistribuir este conteúdo, a atribuição deve incluir, de forma clara e visível:
 
-Capa/ilustração: [Rafael Tasinato- DALL-E]
+- **Título do ebook:** *Ada Lovelace — A Primeira Programadora da História*  
+- **Autor:** Rafael Tasinato  
+- **Fonte:** Repositório *Ebook Ada Lovelace* (este repositório)  
+- **Licença:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Projeto: Ebook Ada Lovelace
+Exemplo de atribuição:
 
-Se você usar este material em aula, artigo ou repositório derivado, recomenda-se citar o título do ebook e este repositório como fonte.
+> Tasinato, R. *Ada Lovelace — A Primeira Programadora da História*. Repositório Ebook Ada Lovelace. Licenciado sob CC BY 4.0.
+
+A licença completa pode ser consultada em:  
+<https://creativecommons.org/licenses/by/4.0/>
 
 
-Se você me disser **em qual formato o ebook está (Markdown, LaTeX ou Word)** e como está a **estrutura de pastas atual**, eu adapto o README para refletir exatamente o seu repositório (com comandos corretos, nomes reais e seção de referências no padrão que você escolher).
+## Créditos
+
+- **Texto:** Rafael Tasinato  
+- **Revisão:** Rafael Tasinato (com apoio do ChatGPT)  
+- **Capa e ilustração:** Rafael Tasinato (DALL·E)  
+- **Projeto:** *Ebook Ada Lovelace*
+
+---
