@@ -2,7 +2,7 @@
 
 O encontro entre Ada Lovelace e Charles Babbage ocorreu em um contexto intelectual marcado pela intensa circulação de ideias científicas e técnicas na Londres da primeira metade do século XIX. Salões privados, demonstrações públicas de invenções e encontros promovidos por membros da Royal Society e da aristocracia científica funcionavam como espaços de mediação entre matemáticos, engenheiros, filósofos naturais e patronos. Foi nesse ambiente que se deu o primeiro contato de Ada com o trabalho de Babbage, por volta de 1833, durante uma demonstração de um protótipo da Máquina Diferencial.
 
-## O ambiente científico e social londrino
+## O ambiente científico e social Londrino
 
 A Londres do período vitoriano inicial configurava-se como um centro dinâmico de produção e divulgação científica. A Revolução Industrial havia intensificado a demanda por instrumentos de cálculo confiáveis, aplicáveis à navegação, à engenharia civil, à balística e à astronomia. Nesse contexto, apresentações de máquinas e instrumentos matemáticos não constituíam meros eventos sociais, mas ocasiões de debate técnico e avaliação conceitual.
 
