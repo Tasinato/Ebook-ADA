@@ -10,7 +10,7 @@ GAMMA. **Ada Lovelace: The First Computer Programmer**. [S. l.]: Gamma, [202-?].
 
 HOLLINGS, Christopher; MARTIN, Ursula; RICE, Adrian. **How Ada Lovelace's notes on the Analytical Engine created the first computer program**. Bristol: *Science Focus* / Bodleian Library Publishing, 13 out. 2020. Disponível em: <https://www.sciencefocus.com/>. Acesso em: 22 maio 2024.
 
-MISA, Thomas J. **Charles Babbage, Ada Lovelace, and the Bernoulli numbers**. In: HAMMERMAN, Robin; RUSSELL, Andrew L. (ed.). *Ada’s Legacy: Cultures of Computing from the Victorian to the Digital Age*. New York: ACM Books, 2015. p. 1–20.
+MISA, Thomas J. **Charles Babbage, Ada Lovelace, and the Bernoulli Numbers**. In: HAMMERMAN, Robin; RUSSELL, Andrew L. (ed.). *Ada’s Legacy: Cultures of Computing from the Victorian to the Digital Age*. Association for Computing Machinery; Morgan & Claypool, 2015. DOI: <https://doi.org/10.1145/2809523.2809527>. Versão de acesso aberto depositada no arXiv em 7 jan. 2023: <https://arxiv.org/abs/2301.02919>. Acesso em: 22 maio 2024.
 
 MORGIA, Lindsay. **Ada Lovelace: the power of imagination and poetical science**. [S. l.]: Ness Labs, 2025. Disponível em: <https://nesslabs.com/ada-lovelace>. Acesso em: 22 maio 2024.
 
