@@ -4,7 +4,7 @@
 
 Ebook educativo de **Rafael Tasinato** sobre Ada Lovelace, Charles Babbage e as origens da programação. Um projeto de produção de conteúdo e divulgação da história da computação, com texto em português e apoio de inteligência artificial na revisão e nas ilustrações.
 
-[**Ler o PDF**](assets/dist/EBOOK%20LOVELACE.pdf) · [**Baixar o EPUB**](https://github.com/Tasinato/Ebook-ADA/raw/refs/heads/main/assets/ebook.epub) · [**Ler os capítulos**](#leitura-por-capítulos) · [**Referências**](src/07-referencias.md)
+[**Ler o PDF**](assets/dist/EBOOK%20LOVELACE.pdf) · [**Ler os capítulos**](#leitura-por-capítulos) · [**Referências**](src/07-referencias.md)
 
 <img src="assets/capa/ChatGPT%20Image%209%20de%20jan.%20de%202026%2C%2013_09_01.png" alt="Ilustração digital da capa do ebook sobre Ada Lovelace" width="300">
 
@@ -16,14 +16,14 @@ O material apresenta o contexto científico do século XIX, a colaboração entr
 
 É destinado a estudantes de Computação, Engenharia e Matemática, professores e leitores interessados em história da tecnologia. No portfólio, demonstra organização de conteúdo educativo, escrita, edição e uso declarado de ferramentas de IA.
 
-**Situação:** há arquivos de leitura em PDF e EPUB e capítulos editáveis em Markdown. A revisão bibliográfica e a conferência de equivalência entre os formatos permanecem pendentes; a disponibilidade dos arquivos não representa validação acadêmica integral do conteúdo.
+**Situação:** há um PDF e capítulos editáveis em Markdown. A bibliografia do Markdown recebeu correções verificadas; o material do Gamma e as datas de acesso ainda precisam de confirmação antes de atualizar os formatos. O EPUB existente está vazio e não é uma edição utilizável. Consulte as [pendências bibliográficas](src/07-referencias.md#pendências-de-identificação-e-edição).
 
 ## Como ler
 
 | Formato | Acesso | Uso |
 | --- | --- | --- |
 | PDF | [Abrir no GitHub](assets/dist/EBOOK%20LOVELACE.pdf) | Leitura com a diagramação disponível no repositório. |
-| EPUB | [Baixar arquivo](https://github.com/Tasinato/Ebook-ADA/raw/refs/heads/main/assets/ebook.epub) | Abrir em um leitor compatível com EPUB. |
+| EPUB | Pendente de geração | O arquivo atual está vazio; será necessário reconstruí-lo. |
 | Markdown | [Pasta src](src/) | Ler e propor revisões dos capítulos pelo GitHub. |
 
 Os formatos publicados não têm um processo automatizado de geração documentado. Portanto, uma alteração nos capítulos Markdown não atualiza automaticamente PDF e EPUB.
@@ -58,7 +58,7 @@ A estrutura acima descreve os arquivos atuais. Não há um script de compilaçã
 ## Revisão editorial e próximos passos
 
 - Conferir referências com links específicos, autoria, título e datas comprováveis.
-- Revisar a entrada datada de 2025 cujo acesso está registrado em maio de 2024; não substituir a data por estimativa.
+- Identificar o documento específico do Gamma e confirmar a divergência das datas de acesso entre Markdown (2024) e PDF (2025). A publicação da Ness Labs foi corrigida para 8 de março de 2022.
 - Verificar afirmações históricas e citações diretamente nas fontes, distinguindo evidência de interpretação.
 - Comparar os capítulos com PDF e EPUB antes de publicar uma nova edição.
 - Documentar as ferramentas e o procedimento realmente usados para gerar os formatos finais.
