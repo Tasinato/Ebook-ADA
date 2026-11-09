@@ -1,8 +1,8 @@
 ## Referências Bibliográficas
 
-COMPUTER HISTORY MUSEUM. **The Engines: Babbage Engine**. Mountain View: CHM, [202-?]. Disponível em: <https://www.computerhistory.org/babbage/engines/>. Acesso em: 22 maio 2024.
+AVIANIMATES [u/AviAnimates]. **ELI5: how did Ada Lovelace invent "the first computer code" before computers existed?** Reddit: r/explainlikeimfive, 19 maio 2024. Disponível em: <https://www.reddit.com/r/explainlikeimfive/comments/1cw130o/eli5_how_did_ada_lovelace_invent_the_first/>. Acesso em: 22 maio 2024.
 
-EXPLAINLIKEIMFIVE. **ELI5: How did Ada Lovelace invent "the first computer code" before computers existed?** [S. l.]: Reddit, 2022. Disponível em: <https://www.reddit.com/r/explainlikeimfive/>. Acesso em: 22 maio 2024.
+COMPUTER HISTORY MUSEUM. **The Engines: Babbage Engine**. Mountain View: CHM, [202-?]. Disponível em: <https://www.computerhistory.org/babbage/engines/>. Acesso em: 22 maio 2024.
 
 FUEGI, John; FRANCIS, Jo. **Lovelace & Babbage and the creation of the 1843 “Notes”**. *IEEE Annals of the History of Computing*, [S. l.], v. 25, n. 4, p. 16–26, out./dez. 2003.
 
