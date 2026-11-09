@@ -4,7 +4,7 @@
 
 Ebook educativo de **Rafael Tasinato** sobre Ada Lovelace, Charles Babbage e as origens da programação. Um projeto de produção de conteúdo e divulgação da história da computação, com texto em português e apoio de inteligência artificial na revisão e nas ilustrações.
 
-[**Ler o PDF**](assets/dist/EBOOK%20LOVELACE.pdf) · [**Baixar o EPUB**](assets/ebook.epub) · [**Ler os capítulos**](#leitura-por-capítulos) · [**Referências**](src/07-referencias.md)
+[**Ler o PDF**](assets/dist/EBOOK%20LOVELACE.pdf) · [**Baixar o EPUB**](https://github.com/Tasinato/Ebook-ADA/raw/refs/heads/main/assets/ebook.epub) · [**Ler os capítulos**](#leitura-por-capítulos) · [**Referências**](src/07-referencias.md)
 
 <img src="assets/capa/ChatGPT%20Image%209%20de%20jan.%20de%202026%2C%2013_09_01.png" alt="Ilustração digital da capa do ebook sobre Ada Lovelace" width="300">
 
@@ -23,7 +23,7 @@ O material apresenta o contexto científico do século XIX, a colaboração entr
 | Formato | Acesso | Uso |
 | --- | --- | --- |
 | PDF | [Abrir no GitHub](assets/dist/EBOOK%20LOVELACE.pdf) | Leitura com a diagramação disponível no repositório. |
-| EPUB | [Baixar arquivo](assets/ebook.epub) | Texto adaptável, capa e sumário navegável; sem as ilustrações internas do PDF. |
+| EPUB | [Baixar arquivo](https://github.com/Tasinato/Ebook-ADA/raw/refs/heads/main/assets/ebook.epub) | Texto adaptável, capa e sumário navegável; sem as ilustrações internas do PDF. |
 | Markdown | [Pasta src](src/) | Ler e propor revisões dos capítulos pelo GitHub. |
 
 O procedimento de atualização está documentado em [Geração e validação dos formatos](docs/formatos-de-leitura.md). O script atualiza a bibliografia do PDF e reconstrói o EPUB; alterações nos capítulos Markdown não reconstroem o corpo do PDF.
@@ -41,7 +41,7 @@ Os títulos abaixo correspondem aos arquivos existentes:
 7. [Conclusão](src/06-conclusão.md)
 8. [Referências bibliográficas](src/07-referencias.md)
 
-## Organização real do repositório
+## Organização do repositório
 
 ```text
 src/                 Capítulos e referências em Markdown
@@ -50,10 +50,18 @@ assets/imagens/      Imagens do projeto
 assets/ fontes/      Pasta de fontes existente, com espaço inicial no nome
 assets/dist/         PDF disponível
 assets/ebook.epub    EPUB disponível
+scripts/             Atualização da bibliografia do PDF e geração do EPUB
+docs/                Procedimento de geração e resultados de validação
 README.md            Apresentação e acesso ao material
 ```
 
-A estrutura acima descreve os arquivos atuais. Não há um script de compilação nem arquivos src/ebook.md ou src/main.tex; por isso, comandos de Pandoc ou LaTeX não são apresentados como procedimentos já implementados.
+O script `scripts/build_reading_formats.py` atualiza a página de referências do PDF existente e gera o EPUB a partir dos capítulos. Requisitos e limites estão descritos na [documentação dos formatos](docs/formatos-de-leitura.md).
+
+## Validação dos arquivos
+
+- **PDF:** 22 páginas; somente a bibliografia foi substituída, com preservação das outras páginas e conferência visual.
+- **EPUB:** validado com EPUBCheck 5.4.0, sem erros ou advertências; links internos e texto dos capítulos conferidos.
+- **Limite da revisão:** a validação dos arquivos não substitui a revisão histórica integral. A referência do Gamma continua provisória.
 
 ## Revisão editorial e próximos passos
 
