@@ -4,7 +4,7 @@
 
 Ebook educativo de **Rafael Tasinato** sobre Ada Lovelace, Charles Babbage e as origens da programação. Um projeto de produção de conteúdo e divulgação da história da computação, com texto em português e apoio de inteligência artificial na revisão e nas ilustrações.
 
-[**Ler o PDF**](assets/dist/EBOOK%20LOVELACE.pdf) · [**Ler os capítulos**](#leitura-por-capítulos) · [**Referências**](src/07-referencias.md)
+[**Ler o PDF**](assets/dist/EBOOK%20LOVELACE.pdf) · [**Baixar o EPUB**](assets/ebook.epub) · [**Ler os capítulos**](#leitura-por-capítulos) · [**Referências**](src/07-referencias.md)
 
 <img src="assets/capa/ChatGPT%20Image%209%20de%20jan.%20de%202026%2C%2013_09_01.png" alt="Ilustração digital da capa do ebook sobre Ada Lovelace" width="300">
 
@@ -16,17 +16,17 @@ O material apresenta o contexto científico do século XIX, a colaboração entr
 
 É destinado a estudantes de Computação, Engenharia e Matemática, professores e leitores interessados em história da tecnologia. No portfólio, demonstra organização de conteúdo educativo, escrita, edição e uso declarado de ferramentas de IA.
 
-**Situação:** há um PDF e capítulos editáveis em Markdown. A bibliografia do Markdown recebeu correções verificadas; o material do Gamma foi mantido provisoriamente, com identificação pendente. O autor confirmou 22 de maio de 2024 como data de acesso para a próxima edição; PDF e EPUB ainda precisam ser atualizados. O EPUB existente está vazio e não é uma edição utilizável. Consulte as [pendências bibliográficas](src/07-referencias.md#pendências-de-identificação-e-edição).
+**Situação:** PDF e EPUB atualizados com a bibliografia revisada e a data de acesso de 22 de maio de 2024, confirmada pelo autor. A referência do Gamma permanece provisória, com identificação pendente. O PDF preserva os capítulos e as ilustrações da edição existente; o EPUB foi reconstruído a partir do texto em Markdown, com capa e sumário navegável. Consulte as [pendências bibliográficas](src/07-referencias.md#pendências-de-identificação-e-edição).
 
 ## Como ler
 
 | Formato | Acesso | Uso |
 | --- | --- | --- |
 | PDF | [Abrir no GitHub](assets/dist/EBOOK%20LOVELACE.pdf) | Leitura com a diagramação disponível no repositório. |
-| EPUB | Pendente de geração | O arquivo atual está vazio; será necessário reconstruí-lo. |
+| EPUB | [Baixar arquivo](assets/ebook.epub) | Texto adaptável, capa e sumário navegável; sem as ilustrações internas do PDF. |
 | Markdown | [Pasta src](src/) | Ler e propor revisões dos capítulos pelo GitHub. |
 
-Os formatos publicados não têm um processo automatizado de geração documentado. Portanto, uma alteração nos capítulos Markdown não atualiza automaticamente PDF e EPUB.
+O procedimento de atualização está documentado em [Geração e validação dos formatos](docs/formatos-de-leitura.md). O script atualiza a bibliografia do PDF e reconstrói o EPUB; alterações nos capítulos Markdown não reconstroem o corpo do PDF.
 
 ## Leitura por capítulos
 
@@ -58,10 +58,10 @@ A estrutura acima descreve os arquivos atuais. Não há um script de compilaçã
 ## Revisão editorial e próximos passos
 
 - Conferir referências com links específicos, autoria, título e datas comprováveis.
-- Identificar o documento específico do Gamma, mantido provisoriamente a pedido do autor. Na atualização do PDF, aplicar a data de acesso confirmada de 22 de maio de 2024. A publicação da Ness Labs foi corrigida para 8 de março de 2022.
+- Identificar o documento específico do Gamma, mantido provisoriamente a pedido do autor. PDF e EPUB já utilizam a data de acesso confirmada de 22 de maio de 2024. A publicação da Ness Labs foi corrigida para 8 de março de 2022.
 - Verificar afirmações históricas e citações diretamente nas fontes, distinguindo evidência de interpretação.
-- Comparar os capítulos com PDF e EPUB antes de publicar uma nova edição.
-- Documentar as ferramentas e o procedimento realmente usados para gerar os formatos finais.
+- Conferir a equivalência editorial dos capítulos entre Markdown e PDF antes de uma revisão integral; o EPUB utiliza o texto do Markdown.
+- Manter o procedimento de geração e os resultados de validação documentados em docs/formatos-de-leitura.md.
 - Conferir créditos e origem de cada imagem, distinguindo ilustração de documento histórico.
 
 O título utiliza o reconhecimento histórico de Ada como primeira programadora. O contexto e as nuances dessa atribuição devem ser tratados no texto e sustentados pelas referências, sem equivaler sua atuação à engenharia de software contemporânea.
