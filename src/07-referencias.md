@@ -21,7 +21,7 @@ SOUZA, João Thomaz M. C. **Ada Lovelace: a primeira programadora da história**
 
 ## Pendências de identificação e edição
 
-- **Gamma:** a entrada acima preserva os dados informados pelo autor, mas ainda não está validada: o endereço abre a plataforma, sem identificar o documento, sua autoria ou sua data. O marcador `[202-?]` também permanece sem comprovação. É necessário o link específico antes de fechar esta referência.
+- **Gamma:** mantida provisoriamente por decisão do autor; a entrada acima ainda não está validada: o endereço abre a plataforma, sem identificar o documento, sua autoria ou sua data. O marcador `[202-?]` também permanece sem comprovação. É necessário o link específico antes de fechar esta referência.
 - **Computer History Museum e History of Information:** `[s. d.]` indica que a data de publicação da página não foi identificada. As datas dos acontecimentos históricos ou da exposição não foram usadas como datas de publicação.
-- **Datas de acesso:** mantidas conforme o registro informado pelo autor (22 maio 2024). O PDF apresenta datas diferentes, de maio de 2025; a escolha para a próxima edição está pendente de confirmação. A conferência atual não comprova retroativamente as datas de consulta.
+- **Datas de acesso:** mantidas conforme o registro informado pelo autor (22 maio 2024). O autor confirmou a manutenção de 22 maio 2024 para a próxima edição. O PDF ainda apresenta datas diferentes, de maio de 2025, que deverão ser substituídas na atualização do arquivo. A conferência atual não comprova retroativamente as datas de consulta.
 - **Formatos:** esta revisão do Markdown ainda não foi incorporada ao PDF. O arquivo EPUB existente contém apenas uma quebra de linha e precisa ser gerado novamente.

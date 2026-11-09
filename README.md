@@ -16,7 +16,7 @@ O material apresenta o contexto científico do século XIX, a colaboração entr
 
 É destinado a estudantes de Computação, Engenharia e Matemática, professores e leitores interessados em história da tecnologia. No portfólio, demonstra organização de conteúdo educativo, escrita, edição e uso declarado de ferramentas de IA.
 
-**Situação:** há um PDF e capítulos editáveis em Markdown. A bibliografia do Markdown recebeu correções verificadas; o material do Gamma e as datas de acesso ainda precisam de confirmação antes de atualizar os formatos. O EPUB existente está vazio e não é uma edição utilizável. Consulte as [pendências bibliográficas](src/07-referencias.md#pendências-de-identificação-e-edição).
+**Situação:** há um PDF e capítulos editáveis em Markdown. A bibliografia do Markdown recebeu correções verificadas; o material do Gamma foi mantido provisoriamente, com identificação pendente. O autor confirmou 22 de maio de 2024 como data de acesso para a próxima edição; PDF e EPUB ainda precisam ser atualizados. O EPUB existente está vazio e não é uma edição utilizável. Consulte as [pendências bibliográficas](src/07-referencias.md#pendências-de-identificação-e-edição).
 
 ## Como ler
 
@@ -58,7 +58,7 @@ A estrutura acima descreve os arquivos atuais. Não há um script de compilaçã
 ## Revisão editorial e próximos passos
 
 - Conferir referências com links específicos, autoria, título e datas comprováveis.
-- Identificar o documento específico do Gamma e confirmar a divergência das datas de acesso entre Markdown (2024) e PDF (2025). A publicação da Ness Labs foi corrigida para 8 de março de 2022.
+- Identificar o documento específico do Gamma, mantido provisoriamente a pedido do autor. Na atualização do PDF, aplicar a data de acesso confirmada de 22 de maio de 2024. A publicação da Ness Labs foi corrigida para 8 de março de 2022.
 - Verificar afirmações históricas e citações diretamente nas fontes, distinguindo evidência de interpretação.
 - Comparar os capítulos com PDF e EPUB antes de publicar uma nova edição.
 - Documentar as ferramentas e o procedimento realmente usados para gerar os formatos finais.
